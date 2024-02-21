@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleCheckout.css">
+</head>
+<body>
+    
+<div class="container">
+    <div class="checkoutLayout">
+
+        <div class="returnCart">
+            <a href="thucuong.html"><- Tiếp tục mua hàng</a>
+            <h1>Thông tin sản phẩm</h1>
+            <div class="list">
+
+            </div>
+        </div>
+
+
+        <div class="right">
+            <h1>Checkout</h1>
+
+            <div class="form">
+                <div class="group">
+                    <label for="name">Tên Người Nhận</label>
+                    <input type="text" name="name" id="name">
+                </div>
+    
+                <div class="group">
+                    <label for="phone">Số Điện Thoại Người Nhận</label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+    
+                <div class="group">
+                    <label for="address">Địa Chỉ</label>
+                    <input type="text" name="address" id="address">
+                </div>
+    
+                <div class="group">
+                    <label for="checkout">Thanh Toán</label>
+                    <select name="checkout" id="checkout">
+                        <option value="">Thanh toán khi nhận hàng</option>
+                        <option value="">Thanh toán qua Momo</option>
+                        <option value="">Thanh toán qua VNPay</option>
+                    </select>
+                </div>
+            </div>
+            <div class="return">
+                <div class="row">
+                    <div>Tổng Tiền</div>
+                    <div class="totalPrice"></div>
+                </div>
+            </div>
+            <button class="buttonCheckout">CHECKOUT</button>
+        </div>
+    </div>
+</div>
+    <script src="/elaadmin-master/assets/js/json_sever/checkout.js"></script>
+</body>
+</html>

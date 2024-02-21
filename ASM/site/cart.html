@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body >
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="clear-fixx">
+                    <div class="h-top">
+                        <div class="h-delivery">
+                            <a href="">
+                                <img src="../upload/images/delivery.png" alt="">
+                            </a>
+                        </div>
+                        <div class="h-logo">
+                            <a href="">
+                                <!-- <img src="../upload/images/logo.png" alt="">                        
+                                <img src="../upload/images/logo_1.png" alt=""> -->
+                                <img src="../upload/images/logo_2.png" alt="">
+                            </a>                      
+                        </div>
+                        <div class="h-cart">
+                            <div class="login">
+                                <div class="login-text">
+                                    <a href="" class="text">
+                                        <span class="h-login-text">
+                                            Đăng Nhập
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="lang-wrapper">
+                                    <a href="" class="active">VN</a>
+                                    |
+                                    <a href="">EN</a>
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div class="cart-text">
+                                    <a href="thucuong.html" class="cart-toggle">
+                                        <span class="h-cart-text">
+                                            Thanh Toán
+                                            <i class='fas fa-shopping-cart'></i>
+                                        </span>  
+                                        <!-- <span class="number" id="slsp">0</span>                                       -->
+                                    </a>
+                                </div>                              
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="h-menu-box">
+                    <ul class="h-menu-main">
+                        <li class="">
+                            <a href="/index.html">Trang Chủ</a>
+                        </li>
+                        <li class="">
+                            <a href="caphe.html">Cà Phê</a>
+                        </li>
+                        <li class="">
+                            <a href="tra.html">Trà</a>
+                        </li>
+                        <li class="active">
+                            <a href="thucuong.html">thức uống</a>
+                        </li>
+                        <li class="">
+                            <a href="sanpham.html">sản phẩm</a>
+                        </li>
+                        <li class="">
+                            <a href="khuyenmai.html">khuyến mãi</a>
+                        </li>
+                        <li class="">
+                            <a href="vechungtoi.html">Về chúng tôi</a>
+                        </li>
+                        <li class="">
+                            <a href="the.html">thẻ</a>
+                        </li>
+                    </ul>
+                    <div class="h-search">
+                        <ul class="h-search-menu">
+                            <li>
+                                <a href="">
+                                    <img src="../upload/images/search_icon.svg" style="width: 18px;margin-top: 3px" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <section class="h-100 h-custom" style="background-color: #cfcfcf; margin-bottom: 20px;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12">
+              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-8">
+                      <div class="p-5">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                          <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                          <h6 class="mb-0 text-muted">Toltal</h6>
+                        </div>
+                        <hr class="my-4">
+      
+                        <div class="row mb-4 d-flex justify-content-between align-items-center" id="list-cart">
+                          
+                        </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="pt-5">
+                          <h6 class="mb-0"><a href="thucuong.html" class="text-body"><i
+                                class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 bg-grey">
+                      <div class="p-5">
+                        <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-4">
+                          <h5 class="text-uppercase">TolTal</h5>
+                          <h5>€ 132.00</h5>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Phương thức thanh toán</h5>
+      
+                        <div class="mb-4 pb-2 " >
+                          <select class="select">
+                            <option value="1">thanh toán khi nhận hàng</option>
+                            <option value="2">thanh toán momo</option>
+                            <option value="3">chuyển khoản VNPAY</option>
+                          </select>
+                        </div>
+      
+                        <h5 class="text-uppercase mb-3">Give code</h5>
+                        <div class="mb-5">
+                          <div class="form-outline">
+                                <label class="form-label" for="form3Examplea2">Tên Người Nhận</label>
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                          </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="form-outline">
+                                <label class="form-label" for="form3Examplea2">Số Điện Thoại</label>
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                            </div>
+                          </div>
+                          <div class="mb-5">
+                            <div class="form-outline">
+                                <label class="form-label" for="form3Examplea2">Địa Chỉ Nhận Hàng</label>
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg"/>
+                            </div>
+                          </div>
+      
+                        <hr class="my-4">
+      
+                        <div class="d-flex justify-content-between mb-5">
+                          <h5 class="text-uppercase">Total price</h5>
+                          <h5 class="priceToltal">€ 137.00</h5>
+                        </div>
+      
+                        <button type="button" class="btn btn-dark btn-block btn-lg"
+                          data-mdb-ripple-color="dark" onclick="thanhtoan()">Thanh Toán</button>      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer id="footer">
+        <div class="f-bot">
+            <div class="container-post">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12"> 
+                        <b>Trụ sở chính</b>: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719</br>
+                        do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021</br>
+                        <b>Nhà máy</b>: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br>
+                        <b>Địa chỉ</b>: Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé, quận 1, Hồ Chí Minh</br>
+                        <b>Điện thoại</b>: 1900 234 518 (Ext.9100/ 9102)</br>
+                        <b>Fax</b>: (028) 6263 0379 </br>
+                        <b class="w37">Email</b><span class="w4">:</span><span class="w1"> sales@phuclong.masangroup.com</span><br>
+                        <b class="w37"> </b><span class="w4"></span><span class="w1">  info2@phuclong.masangroup.com</span>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <label for="newsletter-email">Đăng ký nhận tin khuyến mãi</label>
+                        <form method="POST" action="" class="form-inline">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Gửi</button>
+                        
+                        </form>
+                        <br/>
+                        <ul class="policy">
+                            <li>
+                                <a href="">Chính sách đặt hàng</a>
+                            </li>
+                            <li>
+                                <a href="">Chính sách bảo mật thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-12">
+                        <div class="lang-wrapper">
+                            <a class="lang-item active" href="">VN</a> |
+                            <a class="lang-item" href="">EN</a>
+                        </div>
+                        <a href="" class="datthongbao">
+                            <img src="/../upload/images/dathongbao.png" class="">
+                        </a>
+                        
+                        <ul class="f-social">
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="btn-icon" href="">
+                                    <ion-icon name="logo-youtube"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="json_sever/app.js"></script> -->
+    <script src="/elaadmin-master/assets/js/json_sever/app.js"></script>
+    <!-- <script src="/elaadmin-master/assets/js/json_sever/cart.js"></script> -->
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+{
+  "cart" : [
+    {
+      "nameCart": "Hồng Trà Sữa Caramel",
+      "imagesCart": "http://127.0.0.1:5501/upload/images/product3.png",
+      "descriptionCart": "",
+      "priceCart": "55",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "nameCart": "Hồng Trà Sữa Caramel",
+      "imagesCart": "http://127.0.0.1:5501/upload/images/product3.png",
+      "descriptionCart": "",
+      "priceCart": "55",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "nameCart": "Trà Ô Long Dừa Caramel",
+      "imagesCart": "http://127.0.0.1:5501/upload/images/product4.png",
+      "descriptionCart": "",
+      "priceCart": "22",
+      "quantity": 1,
+      "id": 3
+    }
+  ]
+}

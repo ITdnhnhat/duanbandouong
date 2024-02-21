@@ -1,0 +1,177 @@
+{
+  "product": [
+    {
+      "_id": 1,
+      "name": "Caramel Dừa Đá Xay",
+      "images": "product2.png",
+      "description": "",
+      "loai": "1",
+      "price": "70",
+      "id": 1
+    },
+    {
+      "_id": 2,
+      "name": "Hồng Trà Sữa Caramel",
+      "images": "product3.png",
+      "description": "",
+      "loai": "1",
+      "price": "55",
+      "id": 2
+    },
+    {
+      "_id": 3,
+      "name": "Trà Ô Long Dừa Caramel",
+      "images": "product4.png",
+      "description": "",
+      "loai": "1",
+      "price": "22",
+      "id": 3
+    },
+    {
+      "_id": 4,
+      "name": "Nhãn Đá Xay",
+      "images": "product5.png",
+      "description": "",
+      "loai": "1",
+      "price": "22",
+      "id": 4
+    },
+    {
+      "name": "Trà Ô Long Mãng Cầu",
+      "images": "product6.png",
+      "description": "",
+      "price": "55",
+      "loai": "1",
+      "id": 5
+    },
+    {
+      "name": "Hồng Trà Chanh",
+      "images": "product7.png",
+      "description": "",
+      "price": "35",
+      "loai": "1",
+      "id": 6
+    },
+    {
+      "name": "Trà Sữa Matcha",
+      "images": "product8.png",
+      "description": "",
+      "price": "40",
+      "loai": "1",
+      "id": 7
+    },
+    {
+      "_id": 8,
+      "name": "Hồng Trà Đào Sữa",
+      "images": "product9.png",
+      "description": "",
+      "loai": "1",
+      "price": "50",
+      "id": 8
+    },
+    {
+      "_id": 9,
+      "name": "Chanh Đá Xay",
+      "images": "product10.png",
+      "description": "",
+      "loai": "1",
+      "price": "50",
+      "id": 9
+    },
+    {
+      "_id": 10,
+      "name": "Matcha Đá Xay",
+      "images": "product11.png",
+      "description": "",
+      "loai": "1",
+      "price": "60",
+      "id": 10
+    },
+    {
+      "name": "Oreo Cà Phê Sữa Đá Xay",
+      "images": "product12.png",
+      "description": "",
+      "price": "60",
+      "loai": "1",
+      "id": 11
+    },
+    {
+      "name": "Cà Phê Đá Xay",
+      "images": "product13.png",
+      "description": "",
+      "price": "60",
+      "loai": "1",
+      "id": 12
+    },
+    {
+      "name": "Trà Sữa Berry Berry",
+      "images": "product14.png",
+      "description": "",
+      "price": "60",
+      "loai": "1",
+      "id": 13
+    },
+    {
+      "name": "Trà Đào Đá Xay",
+      "images": "product15.png",
+      "description": "",
+      "price": "65",
+      "loai": "1",
+      "id": 14
+    },
+    {
+      "name": "Sữa Chua Phúc Bồn Tử",
+      "images": "product16.png",
+      "description": "",
+      "price": "70",
+      "loai": "1",
+      "id": 15
+    },
+    {
+      "name": "Sữa Chua Xoài Đác Thơm",
+      "images": "product17.png",
+      "description": "",
+      "price": "70",
+      "loai": "1",
+      "id": 16
+    },
+    {
+      "_id": 17,
+      "name": "cô namdá",
+      "images": "product22.png",
+      "description": "ád",
+      "loai": "1",
+      "price": "13",
+      "id": 17
+    }
+  ],
+  "categories": [
+    {
+      "_id": 1,
+      "name": "Trà Nguyên Bản",
+      "description": "",
+      "id": 1
+    },
+    {
+      "name": "Cà Phê",
+      "description": "",
+      "id": 2
+    },
+    {
+      "_id": 3,
+      "name": "Đá Xay",
+      "description": "",
+      "id": 3
+    },
+    {
+      "name": "Caramel Dừa",
+      "description": "",
+      "id": 4
+    },
+    {
+      "name": "Trà Sữa Nguyên Bản",
+      "description": "",
+      "id": 5
+    }
+  ]
+}
