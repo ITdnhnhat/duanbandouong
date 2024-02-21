@@ -1,0 +1,3 @@
+- sử dụng công nghệ ES6
+- có phần admin với các chức năng thêm xóa sửa sản phẩm
+- phần user thao các với sản phẩm, order sản phẩm và thanh toán
